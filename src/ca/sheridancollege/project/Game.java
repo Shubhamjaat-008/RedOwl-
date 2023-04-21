@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Game {
+class Game {
 
     private static Scanner scanner = new Scanner(System.in);
 
@@ -104,7 +104,7 @@ public class Game {
 
     // Method to get the cards from the player
     public String getCards() {
-        System.out.println("Enter the cards you want to put down (separated by Two spaces): ");
+        System.out.println("Enter the two cards you want to put down (separated by Two spaces): ");
         String cards = scanner.nextLine();
         return cards;
     }
